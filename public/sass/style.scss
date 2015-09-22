@@ -1,0 +1,557 @@
+﻿// Libs
+@import "include/_mixins.scss";
+@import "include/_variables.scss";
+@import "animate.css";
+// Fonts
+@import "material-design.css";
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+
+/*========================================================
+                      Main Styles
+=========================================================*/
+body {
+  background: $body-bg;
+  color: $default;
+  font: $body-fnt;
+  -webkit-text-size-adjust: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $secondary2;
+}
+
+h1 {
+  font-size: 120px;
+  line-height: 100px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 112px;
+  line-height: 100px;
+
+  @media (min-width: 768px) and (max-width: 979px) {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  @media (max-width: 479px) {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+}
+
+h3 {
+  font-size: 34px;
+  line-height: 54px;
+
+  @media (max-width: 479px) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+}
+
+p, .copyright {
+  a:hover {
+    text-decoration: underline;
+  }
+
+  em {
+    font-size: 16px;
+    line-height: 30px;
+    color: $primary;
+  }
+}
+
+time {
+  display: block;
+}
+
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+
+  &:active {
+    background: transparent;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  @include transition(.3s all ease);
+}
+
+a[href^="tel:"] {
+  color: inherit;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.fa {
+  line-height: inherit;
+}
+
+[class*='fa-'] {
+  &:before {
+    font-family: $fa;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.mg-add {
+  margin-top: 19px;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.page {
+  overflow: hidden;
+  min-height: 500px;
+
+  .lt-ie9 & {
+    min-width: 1200px;
+  }
+}
+
+.primary {
+  color: $primary;
+}
+
+.drop-shadow {
+  @include box-shadow(inset 0 4px 4px #e2e2e2);
+}
+
+/*========================================================
+                      Main Layout
+==========================================================*/
+
+* + h2 {
+  margin-top: 96px;
+}
+
+* + h3 {
+  margin-top: 39px;
+}
+
+* + h5 {
+  margin-top: 12px;
+}
+
+* + p {
+  margin-top: 18px;
+}
+
+* + .booking-form {
+  margin-top: 57px;
+}
+
+* + .flex-list {
+  margin-top: 26px;
+}
+
+* + .container{
+  margin-top: 49px;
+}
+
+* + .row {
+  margin-top: 42px;
+}
+
+* + .off1 {
+  margin-top: 96px;
+}
+
+* + .btn {
+  margin-top: 47px;
+}
+
+h3 + p {
+  margin-top: 34px;
+}
+
+.btn + .btn {
+  margin-left: 20px;
+}
+
+.btn:first-child + .btn {
+  margin-top: 0;
+}
+
+.box + .box {
+  margin-top: 38px;
+}
+
+/*=======================================================
+                       Components
+=========================================================*/
+
+/*==================     Brand     ======================*/
+.brand {
+
+  &_name {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 300;
+    overflow: hidden;
+  }
+
+  &_slogan {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+
+  &_name + &_slogan {
+    margin-top: 5px;
+  }
+}
+
+/*==================      Vide     ======================*/
+.vide {
+  padding-top: 96px;
+  padding-bottom: 231px;
+  background: $header-bg;
+
+  &_content {
+    position: relative;
+  }
+
+  @media (max-width: 479px) {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    video{
+      height: 100%!important;
+    }
+  }
+}
+
+/*==================     Icons     ======================*/
+.flaticon-rounded57, .flaticon-play105 {
+  display: inline-block;
+  font-size: 35px;
+  line-height: 30px;
+  @include opacity(.3);
+
+  &:hover {
+    @include opacity(1);
+  }
+}
+
+.flaticon-clock100,
+.flaticon-add183 {
+  display: inline-block;
+  font-size: 50px;
+  width: 91px;
+  height: 91px;
+  line-height: 91px;
+  text-align: center;
+  color: #FFF;
+  background: $primary;
+  @include border-radius(50%);
+}
+
+.flaticon-screen44,
+.flaticon-screen47,
+.flaticon-headset12 {
+  display: inline-block;
+  font-size: 60px;
+  line-height: 52px;
+  color: #DEDEDE;
+}
+
+/*==================    Buttons    ======================*/
+.btn {
+  @include btn(20px, 20px, 61px, 24px);
+  color: #FFF;
+  background: $primary;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  @include border-radius(3px);
+
+  &:hover, &:active {
+    background: lighten($primary, 5%);
+  }
+
+  &:hover {
+    @include box-shadow(1px 1px 6px 0 rgba(#000, .2));
+  }
+
+  &:active {
+    @include box-shadow(2px 2px 10px 0 rgba(#000, .2));
+  }
+}
+
+/*==================      Quote     ======================*/
+blockquote {
+  background: #FFF;
+  padding: 27px 27px 26px;
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 500;
+  @include border-radius(3px);
+  @include box-shadow(1px 1px 5px 0 #e1e1e1);
+  @include transition(.3s box-shadow ease);
+
+  &:hover {
+    @include box-shadow(1px 1px 10px 0 #e1e1e1);
+
+    q {
+      &:after {
+        color: #E4F1E4;
+      }
+    }
+  }
+
+  img {
+    @include border-radius(50%);
+  }
+
+  q {
+    position: relative;
+    display: block;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 36px;
+      line-height: inherit;
+    }
+
+    &:after {
+      position: absolute;
+      left: -2px;
+      top: 18px;
+      content: '“';
+      font-size: 80px;
+      color: #EAEAEA;
+      @include transition(.3s color ease);
+    }
+  }
+
+  img:first-child {
+    margin-top: -72px;
+  }
+
+  @media (min-width: 768px) and (max-width: 979px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/*==================    Flex List   ======================*/
+.flex-list {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding-left: 120px;
+  padding-right: 120px;
+  @include box-sizing(border-box);
+
+  li {
+    display: table-cell;
+    text-align: center;
+  }
+
+  @media (max-width: 1199px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media (max-width: 767px) {
+    display: block;
+
+    li{
+      display: block;
+
+      & + li{
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+@import "components/_toTop.scss";
+@import "components/_lazy-img.scss";
+@import "components/_thumb.scss";
+
+/*========================================================
+                     HEADER  Section
+==========================================================*/
+header {
+  background: $header-bg;
+  text-align: center;
+
+  *:not(.btn) {
+    color: #FFF;
+  }
+
+}
+
+.header_panel {
+  @include clearfix;
+}
+
+/*========================================================
+                     CONTENT  Styles
+=========================================================*/
+main {
+  display: block;
+  background: $content-bg;
+}
+
+/*==================      Well     ======================*/
+.well {
+  padding-top: 75px;
+  padding-bottom: 92px;
+
+  &__ins1 {
+    padding-bottom: 107px;
+  }
+
+  &__ins2 {
+    padding-bottom: 120px;
+  }
+}
+
+.well2 {
+  padding-top: 84px;
+  padding-bottom: 82px;
+}
+
+.thumb-container {
+  @include clearfix;
+  .item {
+    float: left;
+    width: 25%;
+  }
+
+  @media (max-width: 979px) {
+    .item{
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 479px) {
+    .item{
+      float: none;
+      width: 100%;
+    }
+  }
+}
+
+/*==================  Backgrounds  ======================*/
+.bg-primary {
+  background: $primary;
+
+  *:not(.btn) {
+    color: #FFF;
+  }
+
+  .btn {
+    color: $primary;
+    background: #FFF;
+
+    &:hover {
+      color: $primary;
+      background: #f7f7f7;
+    }
+  }
+}
+
+.bg-secondary {
+  background: #F7F7F7;
+}
+
+/*==================      Box      ======================*/
+.box {
+  @include clearfix;
+
+  &_aside {
+    float: left;
+    margin-right: 30px;
+  }
+
+  &_cnt {
+  }
+
+  &_cnt__no-flow {
+    overflow: hidden;
+  }
+
+  @media (max-width: 479px) {
+    text-align: center;
+
+    &_aside{
+      float: none;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+/*========================================================
+                     FOOTER  Section
+=========================================================*/
+footer {
+  padding: 88px 0;
+  text-align: center;
+  color: #888;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #FFF;
+  }
+
+  .brand_name {
+    font-size: 35px;
+  }
+
+  .brand, .brand_name, .copyright {
+    display: inline-block;
+    color: #636363;
+  }
+
+  .brand + .copyright {
+    margin-top: 20px;
+  }
+}
+
+
