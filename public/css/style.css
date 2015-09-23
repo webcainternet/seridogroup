@@ -576,8 +576,8 @@ main {
 
 /*==================      Well     ======================*/
 .well {
-  padding-top: 75px;
-  padding-bottom: 92px;
+  padding-top: 30px;
+  padding-bottom: 75px;
 }
 .well__ins1 {
   padding-bottom: 107px;
