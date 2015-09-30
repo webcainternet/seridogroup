@@ -576,8 +576,8 @@ main {
 
 /*==================      Well     ======================*/
 .well {
-  padding-top: 30px;
-  padding-bottom: 75px;
+  padding-top: 0px;
+  padding-bottom: 25px;
   background-color: #FFFAF3;
   border-top: solid 5px #2c3e50;
 }
