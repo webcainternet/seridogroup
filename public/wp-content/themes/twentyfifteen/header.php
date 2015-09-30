@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Home</title>
+  <title>Seridó Group Participations</title>
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no"/>
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -12,6 +12,15 @@
 
   <script src="js/jquery.js"></script>
   <script src="js/jquery-migrate-1.2.1.js"></script>
+
+  <link rel='stylesheet' id='toolbar.css-css'  href='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/css/toolbar.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style.css-css'  href='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/css/style.css?ver=4.3.1' type='text/css' media='all' />
+
+<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/js/flags.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/js/toolbar.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/js/load-toolbar.js?ver=4.3.1'></script>
 
   <!--[if lt IE 9]>
   <html class="lt-ie9">
@@ -40,10 +49,15 @@
   .toTop {
     display: none !important;
   }
-  #tittx1 {
 
-  }
   </style>
+
+  <script type="text/javascript">
+    $('#tittx1').fadeOut(1000);
+    $('#tittx2').delay(1015).fadeOut(1000);
+    $('#tittx3').delay(2030).fadeOut(1000);
+    alert('dwdw');
+  </script>
 </head>
 
 <body>
@@ -124,8 +138,8 @@
     <div class="container">
       <h3>Seridó Group Participations S.A.</h3>
 
-      <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+      <p>planning and working with integrity</p>
+      
     </div>
     <div class="container" style="margin-top: 30px;">
       <div class="copyright">
@@ -155,14 +169,7 @@
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
 	
-<link rel='stylesheet' id='toolbar.css-css'  href='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/css/toolbar.css?ver=4.3.1' type='text/css' media='all' />
-<link rel='stylesheet' id='style.css-css'  href='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/css/style.css?ver=4.3.1' type='text/css' media='all' />
 
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/js/flags.js?ver=4.3.1'></script>
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/js/toolbar.js?ver=4.3.1'></script>
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/js/load-toolbar.js?ver=4.3.1'></script>
 
 <style type="text/css">p.hello { font-size:12px; color:darkgray; }#google_language_translator, #flags { text-align:left; }#google_language_translator, #language { clear:both; width:160px; text-align:right; }#language { float:right; }#flags { text-align:right; width:165px; float:right; clear:right; }#flags ul { float:right !important; }p.hello { text-align:right; float:right; clear:both; }.glt-clear { height:0px; clear:both; margin:0px; padding:0px; }#flags { width:165px; }#flags a { display:inline-block; margin-left:2px; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#google_language_translator {color: transparent;}body { top:0px !important; }</style>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
