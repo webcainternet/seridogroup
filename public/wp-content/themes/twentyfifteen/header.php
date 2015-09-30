@@ -138,8 +138,8 @@
     <div class="container">
       <h3>Seridó Group Participations S.A.</h3>
 
-      <p>planning and working with integrity</p>
-      
+      <p>Planning and Working with Integrity</p>
+
     </div>
     <div class="container" style="margin-top: 30px;">
       <div class="copyright">
