@@ -56,7 +56,6 @@
     $('#tittx1').fadeOut(1000);
     $('#tittx2').delay(1015).fadeOut(1000);
     $('#tittx3').delay(2030).fadeOut(1000);
-    alert('dwdw');
   </script>
 </head>
 
