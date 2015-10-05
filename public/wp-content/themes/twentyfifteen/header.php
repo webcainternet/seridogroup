@@ -115,9 +115,9 @@
   </style>
   <main>
     <section class="well">
-      <div style="width: 1200px; margin: auto;"><h3 style="color: #555;font-size: 14px;line-height: 54px;margin-left: 60px;text-transform: uppercase;">Click to access</h3></div>
+      <div style="width: 1200px; margin: auto;"><h3 style="color: #FFF;font-size: 12px;font-weight: bold;line-height: 30px;margin-left: 15px;text-transform: uppercase;">Click to access</h3></div>
       <div class="container">
-        <div class="row" style="background-color: #FFFFFF; border-radius: 15px; border: solid 1px #DDDDDD; padding: 40px 0px; width: 1180px; margin-left: 0px;">
+        <div class="row" style="background-color: #FFFFFF; border-radius: 0px; border: solid 1px #DDDDDD; padding: 40px 0px; width: 1180px; margin-left: 0px;">
           <div class="grid_6" style="width: 100%;">
             <div class="grid_logo"><img src="/images/logo/logo-grupo-rota-m.png" style="width: 80%;"></div>
             <div class="grid_logo"><img src="/images/logo/logo-grb-m.png"></div>
