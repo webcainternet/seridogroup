@@ -4,11 +4,14 @@
   <title>Seridó Group Participations</title>
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no"/>
+  <meta name="viewport" content="width=1260">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/booking.css"/>
   <link rel="stylesheet" href="css/jquery.fancybox.css"/>
+
+
 
   <script src="js/jquery.js"></script>
   <script src="js/jquery-migrate-1.2.1.js"></script>
