@@ -128,10 +128,10 @@
       <div class="container">
         <div class="row borderEf" style="background-color: #FFFFFF; border-radius: 30px; padding: 40px 0px; width: 1180px; margin-left: 0px;">
           <div class="grid_6" style="width: 100%;">
-            <div class="grid_logo"><img src="/images/logo/logo-grupo-rota-m.png" style="width: 80%;"></div>
-            <div class="grid_logo"><img src="/images/logo/logo-grb-m.png"></div>
-            <div class="grid_logo"><img src="/images/logo/logo-grb-europe-m.png"></div>
-            <div class="grid_logo"><img src="/images/logo/logo-cemo-m.png"></div>
+            <a border="0" href="http://www.gruporotadobrasil.com.br/"><div class="grid_logo"><img src="/images/logo/logo-grupo-rota-m.png" style="width: 80%;"></div></a>
+            <a border="0" href="http://www.gruporotadobrasil.com.br/rota-construction-usa/"><div class="grid_logo"><img src="/images/logo/logo-rota-construction-p.png"></div></a>
+            <a border="0" href="http://www.gruporotadobrasil.com.br/negocios-internacionais/"><div class="grid_logo"><img src="/images/logo/logo-grb-m.png"></div></a>
+            <a border="0" href="http://www.gruporotadobrasil.com.br/"><div class="grid_logo"><img src="/images/logo/logo-grb-europe-m.png"></div></a>
           </div>
         </div>
       </div>
