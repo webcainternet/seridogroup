@@ -49,7 +49,16 @@
   .toTop {
     display: none !important;
   }
-
+  .borderEf {
+    border: solid 5px #333;
+    -webkit-transition : border 500ms ease-out;
+    -moz-transition : border 500ms ease-out;
+    -o-transition : border 500ms ease-out;
+    transition : border 500ms ease-out;
+  }
+  .borderEf:hover {
+    border: solid 5px #AB9632;
+  }
   </style>
 
   <script type="text/javascript">
@@ -117,7 +126,7 @@
     <section class="well">
       <div style="width: 1200px; margin: auto;"><h3 style="color: #FFF;font-size: 12px;font-weight: bold;line-height: 30px;margin-left: 15px;text-transform: uppercase;">Click to access</h3></div>
       <div class="container">
-        <div class="row" style="background-color: #FFFFFF; border-radius: 0px; border: solid 1px #DDDDDD; padding: 40px 0px; width: 1180px; margin-left: 0px;">
+        <div class="row borderEf" style="background-color: #FFFFFF; border-radius: 0px; padding: 40px 0px; width: 1180px; margin-left: 0px;">
           <div class="grid_6" style="width: 100%;">
             <div class="grid_logo"><img src="/images/logo/logo-grupo-rota-m.png" style="width: 80%;"></div>
             <div class="grid_logo"><img src="/images/logo/logo-grb-m.png"></div>
