@@ -16,14 +16,14 @@
   <script src="js/jquery.js"></script>
   <script src="js/jquery-migrate-1.2.1.js"></script>
 
-  <link rel='stylesheet' id='toolbar.css-css'  href='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/css/toolbar.css?ver=4.3.1' type='text/css' media='all' />
-<link rel='stylesheet' id='style.css-css'  href='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/css/style.css?ver=4.3.1' type='text/css' media='all' />
+  <link rel='stylesheet' id='toolbar.css-css'  href='http://seridogroupparticipations.com/wp-content/plugins/google-language-translator/css/toolbar.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style.css-css'  href='http://seridogroupparticipations.com/wp-content/plugins/google-language-translator/css/style.css?ver=4.3.1' type='text/css' media='all' />
 
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/js/flags.js?ver=4.3.1'></script>
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/js/toolbar.js?ver=4.3.1'></script>
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/plugins/google-language-translator/js/load-toolbar.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://seridogroupparticipations.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://seridogroupparticipations.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://seridogroupparticipations.com/wp-content/plugins/google-language-translator/js/flags.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://seridogroupparticipations.com/wp-content/plugins/google-language-translator/js/toolbar.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://seridogroupparticipations.com/wp-content/plugins/google-language-translator/js/load-toolbar.js?ver=4.3.1'></script>
 
   <!--[if lt IE 9]>
   <html class="lt-ie9">
@@ -69,9 +69,35 @@
     $('#tittx2').delay(1015).fadeOut(1000);
     $('#tittx3').delay(2030).fadeOut(1000);
   </script>
+
+<!-- START SOUND CODE V4.1 HTML5 -->
+<script language="JavaScript" type="text/javascript">
+<!--
+
+// PLAYER VARIABLES
+
+var mp3snd = "/mp3/marbg.mp3";
+var oggsnd = "/mp3/marbg.mp3";
+
+document.write('<audio id="myTune" autoplay="autoplay">');
+document.write('<source src="'+mp3snd+'" type="audio/mpeg">');
+document.write('<source src="'+oggsnd+'" type="audio/ogg">');
+document.write('<!--[if lt IE 9]>');
+document.write('<bgsound src="'+mp3snd+'" loop="1">');
+document.write('<![endif]-->');
+document.write('</audio>');
+
+//-->
+</script>
+<!-- END SOUND CODE V4.1 -->
+
+
 </head>
 
+
+
 <body>
+
 <div class="page">
   <!--========================================================
                             HEADER
@@ -81,12 +107,13 @@
       <div class="brand">
         <h1 class="brand_name">
           <a href="./">
-            <strong>Seridó</strong> Group
+            <strong style="color: #AB9632;">Seridó</strong> Group
           </a>
         </h1>
         <p class="brand_slogan">
           Participations
         </p>
+
       </div>
 
       <h2 class="zoomTexto"><span id="tittx1">Trust, </span><span id="tittx2">Security & </span><span id="tittx3">Responsability</span></h2>
@@ -95,6 +122,7 @@
 
     </div>
   </header>
+
   <!--========================================================
                             CONTENT
   =========================================================-->
@@ -131,10 +159,10 @@
       <div class="container">
         <div class="row borderEf" style="background-color: #FFFFFF; border-radius: 30px; padding: 40px 0px; width: 1180px; margin-left: 0px;">
           <div class="grid_6" style="width: 100%;">
-            <a border="0" href="http://www.gruporotadobrasil.com.br/"><div class="grid_logo"><img src="/images/logo/logo-grupo-rota-m.png" style="width: 80%;"></div></a>
-            <a border="0" href="http://www.gruporotadobrasil.com.br/rota-construction-usa/"><div class="grid_logo"><img src="/images/logo/logo-rota-construction-p.png"></div></a>
-            <a border="0" href="http://www.gruporotadobrasil.com.br/negocios-internacionais/"><div class="grid_logo"><img src="/images/logo/logo-grb-m.png"></div></a>
-            <a border="0" href="http://www.gruporotadobrasil.com.br/"><div class="grid_logo"><img src="/images/logo/logo-grb-europe-m.png"></div></a>
+            <a border="0" target="_blank" href="http://www.gruporotadobrasil.com.br/"><div class="grid_logo"><img src="/images/logo/logo-grupo-rota-m.png" style="width: 80%;" width="80%"></div></a>
+            <a border="0" target="_blank" href="http://www.gruporotadobrasil.com.br/"><div class="grid_logo"><img src="/images/logo/logo-usa-m.jpg" style="width: 158px;" width="158"></div></a>
+            <a border="0" target="_blank" href="http://www.gruporotadobrasil.com.br/negocios-internacionais/"><div class="grid_logo"><img src="/images/logo/logo-europa-m.jpg" style="width: 158px;" width="158"></div></a>
+            <a border="0" target="_blank" href="http://www.gruporotadobrasil.com.br/"><div class="grid_logo"><img src="/images/logo/logo-africa-m.jpg" style="width: 158px;" width="158"></div></a>
           </div>
         </div>
       </div>
@@ -186,14 +214,14 @@
 
 <script>jQuery(document).ready(function(a){a("a.nturl").on("click",function(){function l(){doGoogleLanguageTranslator(default_lang+"|"+default_lang)}function n(){doGoogleLanguageTranslator(default_lang+"|"+lang_prefix)}default_lang="en",lang_prefix=a(this).attr("class").split(" ")[2],lang_prefix==default_lang?l():n()}),a("a.flag").on("click",function(){function l(){doGoogleLanguageTranslator(default_lang+"|"+default_lang)}function n(){doGoogleLanguageTranslator(default_lang+"|"+lang_prefix)}default_lang="en",lang_prefix=a(this).attr("class").split(" ")[2],a(".tool-container").hide(),lang_prefix==default_lang?l():n()}),0==a("body > #google_language_translator").length&&a("#glt-footer").html("<div id='google_language_translator'></div>")});</script>
 
-    <div id="glt-translate-trigger"><span class="notranslate">Translate &raquo;</span></div><div id="glt-toolbar"></div><div id="flags" style="display:none"><ul id="sortable" class="ui-sortable"><li id='English'><a title='English' class='notranslate flag en'></a></li><li id='French'><a title='French' class='notranslate flag fr'></a></li><li id='Portuguese'><a title='Portuguese' class='notranslate flag pt'></a></li><li id='Spanish'><a title='Spanish' class='notranslate flag es'></a></li></ul></div><div id='glt-footer'></div><script type='text/javascript'>function GoogleLanguageTranslatorInit() { new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false, multilanguagePage:true}, 'google_language_translator');}</script><script type='text/javascript' src='//translate.google.com/translate_a/element.js?cb=GoogleLanguageTranslatorInit'></script><script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-includes/js/admin-bar.min.js?ver=4.3.1'></script>
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
+    <div id="glt-translate-trigger"><span class="notranslate">Translate &raquo;</span></div><div id="glt-toolbar"></div><div id="flags" style="display:none"><ul id="sortable" class="ui-sortable"><li id='English'><a title='English' class='notranslate flag en'></a></li><li id='French'><a title='French' class='notranslate flag fr'></a></li><li id='Portuguese'><a title='Portuguese' class='notranslate flag pt'></a></li><li id='Spanish'><a title='Spanish' class='notranslate flag es'></a></li></ul></div><div id='glt-footer'></div><script type='text/javascript'>function GoogleLanguageTranslatorInit() { new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false, multilanguagePage:true}, 'google_language_translator');}</script><script type='text/javascript' src='//translate.google.com/translate_a/element.js?cb=GoogleLanguageTranslatorInit'></script><script type='text/javascript' src='http://seridogroupparticipations.com/wp-includes/js/admin-bar.min.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://seridogroupparticipations.com/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://seridogroup.homolog.lojavirtual.digital/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
+<script type='text/javascript' src='http://seridogroupparticipations.com/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
 	<script type="text/javascript">
 		(function() {
 			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
@@ -204,6 +232,30 @@ var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand chil
 			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
 		}());
 	</script>
+
+
+<div style="position: absolute; top: 0px; right: 0px;">
+
+<a href="javascript:void(0)" class="btn-default" data-toggle="tooltip" title="Preview" onclick="aud_play_pause()" style="background-color: none; background: none; padding: 15px; color: #FFFFFF;">
+<img src="/images/play3.png" style="width: 30px;margin-top: 15px;" width="30"> <div style="margin-top: 18px; display: inline-block;">Mute/Unmute</div>
+</a>
+
+<script>
+  function aud_play_pause() {
+    var myAudio = document.getElementById("myTune");
+    if (myAudio.paused) {
+      $('#stateicon').removeClass('fa fa-play');
+      $('#stateicon').addClass('fa fa-pause');
+      myAudio.play();
+    } else {
+      $('#stateicon').removeClass('fa fa-pause');
+      $('#stateicon').addClass('fa fa-play');
+      myAudio.pause();
+   }
+ }
+ </script>
+  </div>
+
 
 	<?php 
 exit;
